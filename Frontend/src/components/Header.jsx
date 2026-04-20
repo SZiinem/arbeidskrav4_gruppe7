@@ -1,5 +1,6 @@
-export default function Header(){
-    <header>
-        <h1>Gruppe 7</h1>
-    </header>
+export default function Header({ }) {
+    return (
+        <header>
+            <h1>Gruppe 7</h1>
+        </header>)
 }
