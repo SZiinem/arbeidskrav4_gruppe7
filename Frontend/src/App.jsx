@@ -5,6 +5,7 @@ import Filipe from './components/Filipe'
 import Sinem from './components/Sinem'
 import Header from './components/Header'
 
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -14,6 +15,7 @@ function App() {
       <Filipe />
       <Frans />
       <Sinem />
+
     </main>
   )
 }
