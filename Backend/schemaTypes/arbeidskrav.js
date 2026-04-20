@@ -1,26 +1,16 @@
 const arbeidskrav = {
     name: "arbeidskrav",
-    title: "arbeidskrav",
+    title: "Arbeidskrav",
     type: "document",
     fields: [
         {
-            name: "medlemimage",
-            title: "Bilde",
-            type: "image"
-        },
-        {
-            name: "name",
-            title: "Navn",
+            name: "title",
+            title: "Tittel",
             type: "string"
         },
         {
-            name: "email",
-            title: "Epost",
-            type: "email"
-        },
-        {
-            name: "course",
-            title: "Studie",
+            name: "description",
+            title: "Beskrivelse",
             type: "string"
         }
     ]
