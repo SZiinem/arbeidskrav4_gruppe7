@@ -4,6 +4,7 @@ import Frans from './components/Frans'
 import Filipe from './components/Filipe'
 import Sinem from './components/Sinem'
 import Header from './components/Header'
+import Arbeidskrav from './components/Arbeidskrav'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Filipe />
       <Frans />
       <Sinem />
+      <Arbeidskrav />
 
     </main>
   )
