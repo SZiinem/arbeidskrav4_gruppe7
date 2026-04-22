@@ -1,0 +1,29 @@
+.FilipeCard {
+    margin: 0;
+    padding: 1rem;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 1rem solid #4d4343;
+    background-color: #d6c6c6;
+}
+
+.FilipeCard img {
+    border-radius: 20px;
+}
+
+.FilipeCard h3,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4343;
+    padding: 5px;
+    margin: 0;
+}
+
+.FilipeCard a {
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 1rem;
+    color: #4d4343;
+}
