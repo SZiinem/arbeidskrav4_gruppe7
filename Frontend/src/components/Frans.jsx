@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import client from "../helpers/client"
+import "..style/frans.css"
 
 export default function Frans(){
 

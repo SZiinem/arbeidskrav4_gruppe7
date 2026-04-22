@@ -1,0 +1,19 @@
+.frans-card {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.frans-card img{
+    max-width: 500px;
+}
+
+.frans-card h3{
+    color: #000;
+}
+.frans-card a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
