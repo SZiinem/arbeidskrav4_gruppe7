@@ -1,0 +1,31 @@
+.sinem {
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: rgb(159, 243, 181);
+    margin: 0;
+    padding: 0;
+}
+
+.sinem img{
+    max-width: 500px;
+}
+
+.sinem h3{
+    color: #000;
+    margin-top: 5px;
+}
+
+.sinem p{
+    color: #1512cd;
+    padding-bottom: 10px;
+}
+
+.sinem a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.sinem a:hover {
+  text-decoration: underline;
+}
