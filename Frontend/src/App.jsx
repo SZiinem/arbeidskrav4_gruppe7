@@ -13,7 +13,9 @@ function App() {
 
   return (
     <main>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <section className='personer'>
         <Filipe />
         <Frans />

@@ -1,3 +1,4 @@
+import "../style/alt.css"
 
 export default function ArbeidskravCard({ a }) {
 
