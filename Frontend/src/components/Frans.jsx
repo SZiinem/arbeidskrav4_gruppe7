@@ -16,15 +16,11 @@ export default function Frans(){
     console.log(sanityFrans)
 
     return(
-
-
         <article className="frans-Card">
             <h1>{sanityFrans?.name}</h1>
             <img src={sanityFrans?.imageURL} alt="Bilde av hund" className="frans-bilde" />
             <a href="">{sanityFrans?.email}</a>
             <p>{sanityFrans?.course}</p>
-
-
         </article>
     )
 }
