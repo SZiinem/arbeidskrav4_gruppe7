@@ -17,10 +17,10 @@ export default function Frans(){
     console.log(sanityFrans)
 
     return(
-        <article className="frans-Card">
+        <article className="frans-card">
+            <img src={sanityFrans?.imageURL} alt="Profilbilde" />
             <h3>{sanityFrans?.name}</h3>
-            <img src={sanityFrans?.imageURL} alt="Bilde av hund" className="frans-bilde" />
-            <a href="">{sanityFrans?.email}</a>
+            <a href={`mailto:${sanityFrans?.email}`}>{sanityFrans?.email}</a>
             <p>{sanityFrans?.course}</p>
         </article>
     )
