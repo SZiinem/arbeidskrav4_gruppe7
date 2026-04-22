@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import client from "../helpers/client"
-import "..style/frans.css"
+import "../style/frans.css"
 
 export default function Frans(){
 
@@ -18,7 +18,7 @@ export default function Frans(){
 
     return(
         <article className="frans-Card">
-            <h1>{sanityFrans?.name}</h1>
+            <h3>{sanityFrans?.name}</h3>
             <img src={sanityFrans?.imageURL} alt="Bilde av hund" className="frans-bilde" />
             <a href="">{sanityFrans?.email}</a>
             <p>{sanityFrans?.course}</p>
