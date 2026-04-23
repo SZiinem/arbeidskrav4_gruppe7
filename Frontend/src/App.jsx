@@ -24,10 +24,10 @@ function App() {
       <section className='ak'>
         <Arbeidskrav />
       </section>
-
     </main>
   )
-}
+} //Semantisk feil, må fikses
+
 
 
 

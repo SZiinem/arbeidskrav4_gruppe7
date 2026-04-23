@@ -20,7 +20,7 @@ export default function Arbeidskrav({ }) {
 
         <div id="arbeidskrav-list">
             {sanityArbeidskrav?.map(a => <ArbeidskravCard key={a._id} a={a} />)}
-        </div>
+        </div> //VI SKAL IKKE HA DIV
 
     )
 }
