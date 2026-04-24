@@ -12,21 +12,23 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <main>
+    <>
       <header>
         <Header />
       </header>
-      <section className='personer'>
-        <Filipe />
-        <Frans />
-        <Sinem />
-      </section>
-      <section className='ak'>
-        <Arbeidskrav />
-      </section>
-    </main>
+      <main>
+        <section className='personer'>
+          <Filipe />
+          <Frans />
+          <Sinem />
+        </section>
+        <section className='ak'>
+          <Arbeidskrav />
+        </section>
+      </main>
+    </>
   )
-} //Semantisk feil, må fikses
+}
 
 
 
