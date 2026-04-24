@@ -3,4 +3,4 @@ export default function Header({ }) {
 
         <h1>Gruppe 7</h1>
     )
-} //Ikke header inn i header
+}
