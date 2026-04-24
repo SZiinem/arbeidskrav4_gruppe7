@@ -18,9 +18,9 @@ export default function Arbeidskrav({ }) {
     console.log(sanityArbeidskrav)
     return (
 
-        <div id="arbeidskrav-list">
+        <section id="arbeidskrav-list">
             {sanityArbeidskrav?.map(a => <ArbeidskravCard key={a._id} a={a} />)}
-        </div>
+        </section>
 
     )
 }
