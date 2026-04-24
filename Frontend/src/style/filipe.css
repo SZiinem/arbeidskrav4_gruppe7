@@ -12,12 +12,13 @@
 }
 
 .FilipeCard h3,
-p {
+.FilipeCard p {
     font-family: Arial, Helvetica, sans-serif;
     color: #4d4343;
     padding: 5px;
     margin: 0;
 }
+
 
 .FilipeCard a {
     text-decoration: none;

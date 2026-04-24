@@ -1,5 +1,4 @@
 // import { useState } from 'react'
-import './App.css'
 import Frans from './components/Frans'
 import Filipe from './components/Filipe'
 import Sinem from './components/Sinem'
@@ -22,9 +21,8 @@ function App() {
           <Frans />
           <Sinem />
         </section>
-        <section className='ak'>
-          <Arbeidskrav />
-        </section>
+
+        <Arbeidskrav />
       </main>
     </>
   )
